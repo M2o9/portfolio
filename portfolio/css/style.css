@@ -1,0 +1,575 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------ */
+html {
+    font-size: 100%;
+    max-width: 1100px;
+}
+html,body {
+    overflow-x: hidden;
+}
+
+body {
+    max-width: 1100px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "YuMincho";
+    line-height: 1.7;
+    color: #423737;
+}
+a {
+    text-decoration: 100%;
+}
+img {
+    max-width: 100%;
+}
+.wrap {
+    overflow: hidden;
+}
+
+/* HEADER
+-------------------- */
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+    background-color: white;
+}
+.logo {
+    width: 100px;
+    margin-top: 15px;
+}
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 30px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: #423737;
+}
+.main-nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 1em;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* HOME
+-------------------- */
+.home-content {
+    margin: 5%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #faeed1;
+    background-size: 0 auto;
+    height: 700px;
+}
+.home-content img {
+    margin-top: 100px;
+}
+
+.home-content p {
+    font-size: 3em;
+}
+
+/* WORKS
+-------------------- */
+.works h2 {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 3rem;
+}
+.work1 {
+    display: flex;
+    margin: 80px auto;
+}
+.work1 img {
+    width: 40%;
+    margin-left: 0;
+}
+.work1 h2{
+    margin-top: 10%;
+    margin-left: 30px;
+    font-size: 1.5em;
+}
+.work1 p {
+    font-size: medium;
+    margin-top: 10%;
+    margin-left: 30px;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+.work2 {
+    display: flex;
+    margin: 80px auto;
+}
+.work2 img {
+    width: 40%;
+    margin-left: 0;
+}
+.work2 h2{
+    margin-top: 10%;
+    margin-left: 30px;
+    font-size: 1.5em;
+}
+.work2 p {
+    font-size: medium;
+    margin-top: 10%;
+    margin-left: 30px;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+.work3 {
+    display: flex;
+    margin: 80px auto;
+}
+.work3 img {
+    width: 40%;
+    margin-left: 0;
+}
+.work3 h2{
+    margin-top: 10%;
+    margin-left: 30px;
+    font-size: 1.5em;
+}
+.work3 p{
+    font-size: medium;
+    margin-top: 10%;
+    margin-left: 30px;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+/* ABOUT
+------------------- */
+.img {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 400px;
+    height: 400px;
+}
+.img :hover {
+    background:url(../images/prof.png);
+}
+.name {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    margin: 5%;
+    width: auto;
+    max-width: 1100px;
+    height: auto;
+    text-shadow: 1px 2px 3px #423737;
+    font-size: 40px;
+}
+.birthday {
+    position: absolute;
+    width: 320px;
+    text-shadow: 1px 0 2px #423737;
+    font-size: 16px;
+}
+
+.box {
+    position: absolute;
+    margin: 5%;
+    margin-right: 10%;
+    top: 460px;
+    left: 250px;
+    height: auto;
+    width: 700px;
+    background-color: #faeed1;
+    display:  inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.box p {
+    padding: 5% 10% 5% 10%; 
+    font-size: 16px;
+}
+
+/* INTRODUCE
+--------------------- */
+.introduce {
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 500px;
+    width: auto;
+    height: 600px;
+    background-image: url(../images/introduce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.circle1 {
+    position: absolute;
+    top: 1250px;
+    left: 30px;
+    width: 350px;
+    height: 350px;
+    background-color: #7a9fdb;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.circle1 p {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 35px;
+    text-align: center;
+}
+.circle1-list {
+    display: table;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: auto;
+    list-style: none;
+    white-space: pre-wrap;
+}
+
+.circle2 {
+    position: absolute;
+    top: 1250px;
+    left: 355px;
+    width: 350px;
+    height: 350px;
+    background-color: #faeed1;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.circle2 p {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 35px;
+    text-align: center;
+}
+.circle2-list {
+    display: table;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: auto;
+    list-style: none;
+    white-space: pre-wrap;
+}
+
+.circle3 {
+    position: absolute;
+    top: 1250px;
+    left: 680px;
+    width: 350px;
+    height: 350px;
+    background-color: #ded0b7;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.circle3 p {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 35px;
+    text-align: center;
+}
+.circle3-list {
+    display: table;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: auto;
+    list-style: none;
+    white-space: pre-wrap;
+}
+
+/* SKILL
+-------------------- */
+.skil {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    font-size: 40px;
+    overflow: scroll;
+}
+#skil1,#skil2,#skil3,#skil4,#skil5 {
+    float: left;
+    margin: 30px;
+    line-height: 2.5;
+}
+#skil1 h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #7A9FDB;
+    width: 150px;
+}
+.skil1 p{
+    font-family: sans-serif;
+    line-height:2.5
+}
+#skil2 h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #7A9FDB;
+    width: 150px;
+}
+.skil2 p{
+    font-family: sans-serif;
+    line-height:2.5
+}
+#skil3 h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #7A9FDB;
+    width: 150px;
+}
+.skil3 p{
+    font-family: sans-serif;
+    line-height:2.5
+}
+#skil4 h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #7A9FDB;
+    width: 150px;
+}
+.skil4 p{
+    font-family: sans-serif;
+    line-height:2.5
+}
+#skil5 h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #7A9FDB;
+    width: 150px;
+}
+.skil5 p{
+    font-family: sans-serif;
+    line-height:2.5
+}
+
+/* CONTACT
+--------------------- */
+#contact {
+    min-height: 100vh;
+}
+
+.page-title {
+    margin-top: 50px;
+    font-size: 40px;
+}
+.atention {
+    font-size: 15px;
+}
+
+/* フォーム
+--------------------- */
+form div {
+    width: 100%;
+    margin: 0 auto;
+}
+.left {
+    float: left;
+    width: 248px;
+    padding-right: 15px ;
+}
+.clear {
+    clear: both;
+}
+
+label {
+    font-size: 1rem;
+    color: #4756f4;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+
+input[type="text"] {
+    background: rgba(253, 247, 232, 0.707);
+    border-bottom: 1px #4756f4 solid;
+    margin-right: 0;
+    font-size: 1rem;
+    height: 2.5rem;
+    width: 50%;
+    text-align: center;
+}
+input[type="email"],
+textarea {
+    background: rgba(253, 247, 232, 0.707);
+    border-bottom: 1px #4756f4 solid;
+    padding: 10px;
+    font-size: 1rem;
+    height: 2.5rem;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 240px;
+}
+input[type="email"],
+textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 2.5rem;
+}
+textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 5rem;
+}
+input[type="submit"] {
+    cursor: pointer;
+    line-height: 1;
+    color: #fff;
+}
+.submit {
+    font-size: 1rem;
+    width: 80px;
+    color: #fff;
+    border: 2px solid #4756f4;
+    background: #4756f4;
+    text-align: center;
+    display: inline-block;
+}
+/* フッター
+-------------------- */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 1100px;
+    background: #fff;
+    color: #423737;
+    font-size: 0.875rem;
+    text-align: left;
+    padding: 25px 0;
+}
+
+/* モバイル版
+---------------------- */
+@media (max-width: 600px) { 
+    html,body {
+        width: 100%;
+        max-width: 600px;
+    } 
+    /* HEADER */
+    .main-nav {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .main-nav li {
+        margin: 0 20px;
+    }
+    .page-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* HOME */
+    .home-content {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 1rem;
+        height: 500px;
+    }
+    /* WORKS */
+    .work1 {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .work1 img {
+        width: auto;
+    }
+    .work2 {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .work2 img {
+        width: auto;
+    }
+    .work3 {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .work3 img {
+        width: auto;
+    }
+    /* ABOUT */
+    .img {
+        width: auto;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .name{
+        width: auto;
+        font-size: 24px;
+        margin-top: 405px;
+        margin-left: -390px;
+
+    }
+    .birthday {
+        width: 300px;
+        font-size: 12px;
+    }
+    
+    .box {
+        width: 100%;
+        height: auto;
+        margin-top: 305px;
+        margin-left: -45%;
+    }
+    .box p {
+        font-size: 14px;
+        padding: 10%;
+    }
+    /* INTRODUCE */
+    .introduce {
+        margin-top: 700px;
+        margin-bottom: 10%;
+        width: 100%;
+        height: 1200px;
+    }
+
+    .circle1 {
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+    .circle2 {
+        margin-top: 85%;
+        margin-left: -48%;
+    }
+    .circle3 {
+        margin-top: 150%;
+        margin-left: -107%;
+    }
+    .contact {
+    width: 500px;
+    margin-top: 40px;
+    font-size: 14px;
+    }
+      
+    .form_area dt,
+    .form_area dd {
+        width: 100%;
+    }
+      
+    .form_area dt {
+        padding-bottom: 0;
+    }
+      
+    .submit_button {
+        width: 100%;
+    }
+      
+      }
